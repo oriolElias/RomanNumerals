@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="refactor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" afterDir="false" />
+    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="add X test">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <recent name="org.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberX">
+  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberXVIII">
     <configuration name="RomanNumeralsGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
@@ -82,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumeralForBaseDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumberXVIII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +91,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.tdd" />
       <option name="MAIN_CLASS_NAME" value="org.tdd.RomanNumeralsGeneratorTest" />
-      <option name="METHOD_NAME" value="generateRomanNumeralForBaseDecimal" />
+      <option name="METHOD_NAME" value="generateRomanNumberXVIII" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberXVIII" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberX" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralIII" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralII" />
-        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralForBaseDecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664277517803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add V test">
+      <created>1664277678671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664277678671</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add X test">
+      <created>1664277969627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664277969627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple test" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="add V test" />
+    <MESSAGE value="add X test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add X test" />
   </component>
 </project>
