@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="add X test">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" afterDir="false" />
+    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="add XVIII test">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664277969627</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add XVIII test">
+      <created>1664278029282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278029282</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +216,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="add V test" />
     <MESSAGE value="add X test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add X test" />
+    <MESSAGE value="add XVIII test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add XVIII test" />
   </component>
 </project>
