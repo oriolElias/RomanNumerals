@@ -36,6 +36,16 @@ class RomanNumeralsGeneratorTest {
         assertEquals("V",generator.romanFor(5));
     }
 
+    @Test
+    void generateRomanNumberVII(){
+        assertEquals("VII",generator.romanFor(7));
+    }
+
+    @Test
+    void generateRomanNumberX(){
+        assertEquals("X",generator.romanFor(10));
+    }
+
 
 
 }
