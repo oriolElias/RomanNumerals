@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="refactor and removing duplication">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2c05906-20a3-402b-8e96-e83773022eee" name="Changes" comment="adding 4 and 9 exceptions">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tdd/RomanNumeralsGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tdd/RomanNumeralsGeneratorTest.java" afterDir="false" />
     </list>
@@ -51,7 +50,7 @@
       <recent name="org.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberIX">
+  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberMMMCDXCIX">
     <configuration name="RomanNumeralsGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
@@ -83,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumberX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumberMMDCLXXXVII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.tdd" />
       <option name="MAIN_CLASS_NAME" value="org.tdd.RomanNumeralsGeneratorTest" />
-      <option name="METHOD_NAME" value="generateRomanNumberX" />
+      <option name="METHOD_NAME" value="generateRomanNumberMMDCLXXXVII" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumberXVIII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsGeneratorTest.generateRomanNumberMMMCDXCIX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.tdd" />
       <option name="MAIN_CLASS_NAME" value="org.tdd.RomanNumeralsGeneratorTest" />
-      <option name="METHOD_NAME" value="generateRomanNumberXVIII" />
+      <option name="METHOD_NAME" value="generateRomanNumberMMMCDXCIX" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberMMMCDXCIX" />
+        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberMMDCLXXXVII" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberIX" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberXXX" />
-        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberXVIII" />
-        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumberX" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664278403365</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding 4 and 9 exceptions">
+      <created>1664278868931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278868931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +233,7 @@
     <MESSAGE value="add X test" />
     <MESSAGE value="add XVIII test" />
     <MESSAGE value="refactor and removing duplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor and removing duplication" />
+    <MESSAGE value="adding 4 and 9 exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 4 and 9 exceptions" />
   </component>
 </project>

@@ -65,4 +65,13 @@ class RomanNumeralsGeneratorTest {
         assertEquals("IX",generator.romanFor(9));
     }
 
+    @Test
+    void generateRomanNumberMMDCLXXXVII(){
+        assertEquals("MMDCLXXXVII",generator.romanFor(2687));
+    }
+
+    @Test
+    void generateRomanNumberMMMCDXCIX(){
+        assertEquals("MMMCDXCIX",generator.romanFor(3499));
+    }
 }
