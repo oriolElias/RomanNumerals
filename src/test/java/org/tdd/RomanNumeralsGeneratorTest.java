@@ -10,9 +10,16 @@ class RomanNumeralsGeneratorTest {
     RomanNumeralsGenerator generator;
 
     @Test
-    void generateRomanNumeralForBaseDecimal(){
+    void generateRomanNumeralI(){
         generator = new RomanNumeralsGenerator();
         assertEquals("I",generator.romanFor(1));
     }
+
+    @Test
+    void generateRomanNumeralII(){
+        generator = new RomanNumeralsGenerator();
+        assertEquals("II",generator.romanFor(2));
+    }
+
 
 }
