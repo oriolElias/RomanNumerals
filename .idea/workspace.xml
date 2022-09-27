@@ -51,7 +51,22 @@
       <recent name="org.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralII">
+  <component name="RunManager" selected="JUnit.RomanNumeralsGeneratorTest">
+    <configuration name="RomanNumeralsGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tdd" />
+      <option name="MAIN_CLASS_NAME" value="org.tdd.RomanNumeralsGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanNumeralsGeneratorTest.generateRomanNumeralForBaseDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
@@ -102,8 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralII" />
+        <item itemvalue="JUnit.RomanNumeralsGeneratorTest" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralIII" />
+        <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralII" />
         <item itemvalue="JUnit.RomanNumeralsGeneratorTest.generateRomanNumeralForBaseDecimal" />
       </list>
     </recent_temporary>

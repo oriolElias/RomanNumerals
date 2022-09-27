@@ -2,11 +2,12 @@ package org.tdd;
 
 public class RomanNumeralsGenerator {
     public String romanFor(int decimal) {
-        StringBuilder roman = new StringBuilder();
-        roman.append("I");
-        if(decimal==2){
-            roman.append("I");
+        String roman = "";
+        for (int i = 0; i < decimal; i++) {
+            roman += "I";
         }
-        return roman.toString();
+
+
+        return roman;
     }
 }

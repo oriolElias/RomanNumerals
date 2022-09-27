@@ -20,6 +20,17 @@ class RomanNumeralsGeneratorTest {
         generator = new RomanNumeralsGenerator();
         assertEquals("II",generator.romanFor(2));
     }
+    @Test
+    void generateRomanNumeralIII(){
+        generator = new RomanNumeralsGenerator();
+        assertEquals("III",generator.romanFor(3));
+    }
+
+    @Test
+    void generateRomanNumberV(){
+
+    }
+
 
 
 }
