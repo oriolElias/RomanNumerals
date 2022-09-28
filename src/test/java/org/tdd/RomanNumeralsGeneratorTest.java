@@ -2,6 +2,8 @@ package org.tdd;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -75,5 +77,10 @@ class RomanNumeralsGeneratorTest {
         assertEquals("MMMCDXCIX",generator.romanFor(3499));
     }
 
+    @ParameterizedTest
+    @CsvSource(value = {"1,'I'","5,'V'","9,'IX'","10,'X'","54,'LIV'","70, 'LXX'","100,'C'","500,'D'","1000,'M'","1250,'MCCL'"})
+    void generateRomanNumberWithConverter(int number,String roman){
+        assertEquals(roman,generator.converter(number));
+    }
 
 }

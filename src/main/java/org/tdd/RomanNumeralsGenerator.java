@@ -1,5 +1,7 @@
 package org.tdd;
 
+import java.util.List;
+
 public class RomanNumeralsGenerator {
     public String romanFor(int decimal) {
         String roman = "";
@@ -11,9 +13,23 @@ public class RomanNumeralsGenerator {
             }
         }
 
+        return roman;
+    }
 
 
 
+    String[] romanNumber = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+    int[] decimalNumbers = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+
+    public String converter(int decimalToTransform){
+        String roman = "";
+
+        for (int i = 0; i < decimalNumbers.length; i++) {
+            while(decimalToTransform>=decimalNumbers[i]){
+                roman+=romanNumber[i];
+                decimalToTransform-=decimalNumbers[i];
+            }
+        }
 
         return roman;
     }
